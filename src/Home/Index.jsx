@@ -1,5 +1,14 @@
 import img1 from "../assets/banner.png"
 import Play from "../assets/Play.png"
+import Package from "../assets/package.png"
+import user from "../assets/user.png"
+import rocket from "../assets/rocket.png"
+import Frame1 from "../assets/Frame1.png"
+import Frame2 from "../assets/Frame2.png"
+import Frame3 from "../assets/Frame3.png"
+import insta from "../assets/Instagram.png"
+import facebook from "../assets/Facebook.png"
+import x from "../assets/Twitter.png"
 
 
 const Index = () => {
@@ -97,6 +106,132 @@ const Index = () => {
                     </div>
                 </div>
             </section>
+
+                        {/* Premium Digital Tools */}
+
+            {/* Premium Digital Tools */}
+            
+
+            {/* Get Started in 3 Steps  */}
+             <section className='bg-[#F9FAFC] py-20 space-y-10'>
+                <div className='w-[1200px] m-auto space-y-10'>
+                    <div className=''> 
+
+                    <h1 className='text-4xl text-center font-bold leading-[74px] ' >Get Started in 3 Steps</h1>
+                    <p className='text-center'>Start using premium digital tools in minutes, not hours.</p>
+                            
+                    </div>
+                    <div className=' grid grid-cols-3 m-auto gap-10'>
+                        <div className='bg-white shadow-sm rounded-2xl p-10 '>
+                            <span className='flex justify-end'>
+                                <img className='flex text-end' src={Frame1} alt="" />
+                            </span>
+                            <img className='mb-3 m-auto p-2 rounded  bg-purple-100' src={user} alt="" />
+                            <h3 className='text-center font-bold'>Start Creating</h3>
+                            <p className='text-center'>Download and start using your premium tools immediately.</p>
+                        </div>
+                        <div className='bg-white shadow-sm rounded-2xl p-10'>
+                            <span className='flex justify-end'>
+                                <img className='flex text-end' src={Frame2} alt="" />
+                            </span>
+                            <img className='mb-3 m-auto p-2 rounded  bg-purple-100' src={Package} alt="" />
+                            <h3 className='text-center font-bold'>Choose Products</h3>
+                            <p className='text-center'>Browse our catalog and select the tools that fit your needs.</p>
+                        </div>
+                        <div className='bg-white shadow-sm rounded-2xl p-10'>
+                            <span className='flex justify-end'>
+                                <img className='flex text-end' src={Frame3} alt="" />
+                            </span>
+                            <img className='mb-3 m-auto p-2 rounded  bg-purple-100' src={rocket} alt="" />
+                            <h3 className='text-center font-bold'>Create Account</h3>
+                            <p className='text-center'>Sign up for free in seconds. No credit card required to get started.</p>
+                        </div>
+
+                    </div>
+                </div>
+            
+            </section>
+
+            {/* Simple, Transparent Pricing */}
+
+            {/* Simple, Transparent Pricing */}
+            
+
+            {/* Ready to Transform Your Workflow? */}
+             <section className='bg-gradient-to-r from-[#652df7] to-[#8c19fa] py-10'>
+
+                <div className='w-[1400px] m-auto py-10 space-y-10'> 
+
+                <h1 className='text-4xl text-white text-center font-bold leading-[74px]'>Ready to Transform Your Workflow?</h1>
+                <p className='text-center text-white'>Join thousands of professionals who are already using Digitools to work smarter. <br /> Start your free trial today.</p>
+
+                <div className='flex gap-4 justify-center'>
+                    <button className='btn rounded-full'>Explore Products</button>
+                <button className='btn text-white bg-transparent border-2 border-white  rounded-full'>View Pricing</button>
+                </div>
+                <p className='text-center text-white'>14-day free trial • No credit card required • Cancel anytime</p>
+
+                </div>
+                              
+            </section>
+
+            {/* footer section  */}
+
+            <footer className='bg-[#101727] pt-20 pb-10'>
+                <div className='w-[1400px] m-auto grid grid-cols-5 gap-5'>
+                    <div className='space-y-4'>
+                         <h1 className='text-white font-bold text-3xl  cursor-pointer'>DigiTools</h1> 
+                         <p className='text-white'>
+                            Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
+                         </p>
+                    </div>
+                    
+                    <nav className='text-white grid '>
+                        <h6 className="footer-title ">Services</h6>
+                        <a className="link link-hover">Features</a>
+                        <a className="link link-hover">Pricing</a>
+                        <a className="link link-hover">Integrations</a>
+                        <a className="link link-hover">Templates</a>
+                    </nav>
+                    <nav className='text-white grid '>
+                        <h6 className="footer-title ">Company</h6>
+                        <a className="link link-hover">About </a>
+                        <a className="link link-hover">Blog</a>
+                        <a className="link link-hover">Careers</a>
+                        <a className="link link-hover">Press</a>
+                    </nav>
+                    <nav className='text-white grid '>
+                        <h6 className="footer-title ">Resources</h6>
+                        <a className="link link-hover">Documentation</a>
+                        <a className="link link-hover">Help Center</a>
+                        <a className="link link-hover">Community</a>
+                        <a className="link link-hover">Contact</a>
+                    </nav>
+
+                    <div>
+                        <h6 className="footer-title text-white">Social Links</h6>
+                        <div className='flex gap-3'> 
+                            <img className='cursor-pointer' src={insta} alt="" />
+                            <img className='cursor-pointer' src={facebook} alt="" />
+                            <img className='cursor-pointer' src={x} alt="" />
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div className='flex justify-between w-[1400px] border-t-2 border-zinc-700 mt-6 m-auto pt-10'>
+                    
+                    <p className='text-gray-400'>© 2026 Digitools. All rights reserved. </p>
+                    <ul className='flex gap-6 text-gray-400'> 
+                        <li>Privacy Policy</li>
+                        <li>  Terms of Service </li>
+                        <li> Cookies</li>
+                    </ul>
+
+
+                </div>
+            </footer>
+
 
             
 
