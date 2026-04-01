@@ -18,7 +18,7 @@ const Users = () => {
                                 <p className='text-center'>Start using premium digital tools in minutes, not hours.</p>
                                         
                                 </div>
-                                <div className=' grid lg:grid-cols-2 md:grid-cols-2 gap-5 '>
+                                <div className=' grid lg:grid-cols-3 md:grid-cols-2 gap-5 '>
                                     <div className='bg-white shadow-sm rounded-2xl p-10 '>
                                         <span className='flex justify-end'>
                                             <img className='flex text-end' src={Frame1} alt="" />
