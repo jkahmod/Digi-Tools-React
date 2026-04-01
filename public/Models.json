@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "image": "../src/assets/products/writing_2327400 1.png",
+    "description": "Create professional resumes with easy-to-use templates.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features1": 
+      "✔ 50+ templates",
+    "features2": 
+      "✔Basic customization",
+    "features3": 
+      "✔ Export to PDF",
+    
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "image": "../src/assets/products/design-tool.png",
+    "description": "Advanced resume builder with ATS optimization.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+     "features1": 
+      "✔ Custom domains",
+    "features2": 
+      "✔Drag & drop builder",
+    "features3": 
+      "✔Responsive design",
+    "icon": "Briefcase"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "image": "../src/assets/products/camera_8775444 1.png",
+    "description": "Build your personal portfolio website easily.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+     "features1": 
+      "✔ Custom domains",
+    "features2": 
+      "✔Drag & drop builder",
+    "features3": 
+      "✔Responsive design",
+    "icon": "Globe"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "image": "../src/assets/products/operation.png",
+    "description": "Start your online store with essential tools.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+     "features1": 
+      "✔Product management",
+    "features2": 
+      "✔Payment gateway",
+    "features3": 
+      "✔Order tracking",
+    "icon": "ShoppingCart"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "image": "../src/assets/products/portfolio.png",
+    "description": "Professional business website templates and hosting.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+     "features1": 
+      "✔ Custom domains",
+    "features2": 
+      "✔Drag & drop builder",
+    "features3": 
+      "✔Responsive design",
+    "icon": "Building"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "image": "../src/assets/products/social-media.png",
+    "description": "High-converting landing pages for marketing campaigns.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+     "features1": 
+      "✔Product management",
+    "features2": 
+      "✔Payment gateway",
+    "features3": 
+      "✔Order tracking",
+    "icon": "Zap"
+  }
+  
+  
+]
