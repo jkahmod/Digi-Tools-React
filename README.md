@@ -1,16 +1,24 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Digi Tools Platform is a digital tools buying website where users can explore different products and add them to a cart. It provides a smooth and interactive user experience with dynamic cart updates, product toggling, and notification alerts.
 
-Currently, two official plugins are available:
+# Technologies Used
+- React.js
+- Tailwind CSS
+- DaisyUI
+- JavaScript (ES6+)
+- React Toastify
+- JSON
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Features
+## 1. Product & Cart Toggle System
 
-## React Compiler
+Users can switch between Product and Cart sections. By default, the Product section is visible, and the Cart shows selected items or an empty message.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 2. Dynamic Cart Functionality
 
-## Expanding the ESLint configuration
+Users can add products to the cart, remove items, and see real-time cart count updates in the navbar. Duplicate items are not allowed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 3. Checkout & Notification System
+
+Users can proceed to checkout which clears the cart. Toast notifications are shown for add, remove, and checkout actions.

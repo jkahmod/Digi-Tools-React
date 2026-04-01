@@ -16,7 +16,7 @@ const handelSubscription = ()=>{
     };
 
     setCarts([...carts, model])
-    toast.success("Items added to cart")
+    toast.success("Add to cart")
 }
 
     return (

@@ -10,13 +10,13 @@ const Cart = ({carts,setCarts}) => {
 
     const handlePayment = ()=>{
         setCarts([])
-        toast.success("Payment Successfull")
+        toast.success("Checkout success")
     };
 
     const handleDelet = (item) =>{
         const filterArray = carts.filter(c =>c.id !== item.id)
         setCarts(filterArray)
-        toast.error("Items Remove")
+        toast.error("Remove item")
     }
 
     return (
