@@ -4,7 +4,7 @@ const Counter = () => {
     return (
         <div>
             <section className='bg-gradient-to-r from-[#652df7] to-[#8c19fa] py-10'>
-                <div className=' w-[1400px] m-auto  grid grid-cols-3 justify-center '> 
+                <div className='  w-[100%] lg:w-[1300px] md:w-[768px]  m-auto  grid  md:grid-cols-3  lg:grid-cols-3 justify-center '> 
                     <div>
                         <h1 className='text-white text-5xl font-bold text-center '>50K+</h1>
                         <p className='text-white text-center' >Active Users</p>

@@ -11,14 +11,14 @@ const Users = () => {
     return (
         <div>
             <section className='bg-[#F9FAFC] py-20 space-y-10'>
-                <div className='w-[1200px] m-auto space-y-10'>
+                <div className=' w-[100%] lg:w-[1300px] md:w-[768px]  m-auto space-y-10'>
                                 <div className=''> 
 
                                 <h1 className='text-4xl text-center font-bold leading-[74px] ' >Get Started in 3 Steps</h1>
                                 <p className='text-center'>Start using premium digital tools in minutes, not hours.</p>
                                         
                                 </div>
-                                <div className=' grid grid-cols-3 m-auto gap-10'>
+                                <div className=' grid lg:grid-cols-2 md:grid-cols-2 gap-5 '>
                                     <div className='bg-white shadow-sm rounded-2xl p-10 '>
                                         <span className='flex justify-end'>
                                             <img className='flex text-end' src={Frame1} alt="" />

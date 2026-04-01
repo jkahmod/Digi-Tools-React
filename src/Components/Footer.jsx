@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <div>
             
-            <footer className='bg-[#101727] pt-20 pb-10'>
-                <div className='w-[1400px] m-auto grid grid-cols-5 gap-5'>
+            <footer className='bg-[#101727] pt-20 pb-10 overflow-hidden p-10' >
+                <div className=' w-[100%] lg:w-[1300px] md:w-[768px]  m-auto  grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-5'>
                     <div className='space-y-4'>
                          <h1 className='text-white font-bold text-3xl  cursor-pointer'>DigiTools</h1> 
                          <p className='text-white'>
@@ -48,7 +48,7 @@ const Footer = () => {
                     
                 </div>
                 
-                <div className='flex justify-between w-[1400px] border-t-2 border-zinc-700 mt-6 m-auto pt-10'>
+                <div className='flex justify-between  w-[100%] lg:w-[1300px] md:w-[768px]   mt-6 m-auto pt-10'>
                     
                     <p className='text-gray-400'>© 2026 Digitools. All rights reserved. </p>
                     <ul className='flex gap-6 text-gray-400'> 

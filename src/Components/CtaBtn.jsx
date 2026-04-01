@@ -5,7 +5,7 @@ const CtaBtn = () => {
         <div>
             <section className='bg-gradient-to-r from-[#652df7] to-[#8c19fa] py-10'>
 
-                <div className='w-[1400px] m-auto py-10 space-y-10'> 
+                <div className='w-[100%] lg:w-[1300px] md:w-[768px] m-auto py-10 space-y-10'> 
 
                 <h1 className='text-4xl text-white text-center font-bold leading-[74px]'>Ready to Transform Your Workflow?</h1>
                 <p className='text-center text-white'>Join thousands of professionals who are already using Digitools to work smarter. <br /> Start your free trial today.</p>

@@ -33,7 +33,7 @@ function App() {
 
       {/* TabButton  */}
      
-      <div className="tabs tabs-box justify-center mt-10">
+      <div className="tabs tabs-box bg-gray-100 w-[220px] p-2 m-auto rounded-lg justify-center mt-10">
         <input type="radio" name="my_tabs_1" className="tab" aria-label="Products"  onClick={()=>setActiveTab("model")} defaultChecked />
         <input type="radio" name="my_tabs_1" className="tab" aria-label={`Cart (${carts.length})`}  onClick={()=>setActiveTab("Cart")}   />
       </div>

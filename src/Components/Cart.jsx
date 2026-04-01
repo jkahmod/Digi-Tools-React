@@ -41,7 +41,7 @@ const Cart = ({carts,setCarts}) => {
                         <div className='grid gap-2'>
 
                             <div className='flex gap-4' >
-                            <img src={item.image} alt="" /> 
+                            <img src={item.icon} alt="" /> 
                             <h1 className='text-xl font-semibold'>{item.name}</h1>
                             </div>
                             <p className='font-bold'>{item.price}</p>
