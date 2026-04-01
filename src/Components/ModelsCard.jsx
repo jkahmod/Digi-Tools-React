@@ -1,6 +1,6 @@
 import {useState} from "react";
 import { toast } from "react-toastify";
-
+import Check from "../assets/Check.png"
 
 
 const ModelsCard = ({model,carts,setCarts}) => {
@@ -22,15 +22,20 @@ const handelSubscription = ()=>{
     return (
         
             <div className="shadow-sm p-5 rounded-2xl space-y-2">
-                    <span className="flex text-center  ml-[280px] w-[130px] bg-yellow-100 text-yellow-600 rounded-full px-4  py-1">{model.tag} </span>
-                    <img src={model.image} alt="" />
+                   
+                    <div className="flex justify-between"> 
+                        <span className="text-4xl mb-5"> {model.icon}</span>
+                    <div className="badge badge-warning">{model.tag}</div>
+                    </div>
                     <h1 className="text-xl font-bold">{model.name}</h1>
                     <p>{model.description}</p>
                     <p className="font-bold">${model.price}/Mo</p>
                     <ul>
-                    <li >{model.features1}</li>
-                    <li >{model.features2}</li>
-                    <li >{model.features3}</li>
+                        {
+                            model.features.map( fe => {
+                                return <li className="flex gap-2"> <div><img  src={Check} alt="" /></div> {fe}</li> ;
+                            })
+                        }
                     </ul>
                     <button onClick={()=> handelSubscription()} className="btn btn-primary w-full">
                                     {isSubscribe ?"View Cart" : "Buy Now"}

@@ -8,6 +8,7 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Models from './Components/Models'
 import Users from './Components/Users'
+import Subscription from './Components/Subscription'
 
 const getModels = async () => {
   const res = await fetch("/Models.json")
@@ -44,6 +45,8 @@ function App() {
       <Users></Users>
       {/* Simple, Transparent Pricing */}
       {/* Simple, Transparent Pricing */}
+
+      <Subscription></Subscription>
 
       <CtaBtn></CtaBtn>
 
