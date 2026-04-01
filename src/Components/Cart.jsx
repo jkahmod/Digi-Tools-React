@@ -1,5 +1,6 @@
 import React from 'react';
-import empty from "../assets/products/shopping-cart.png"
+import empty from "../assets/products/shopping (1).png"
+import { toast } from 'react-toastify';
 
 const Cart = ({carts,setCarts}) => {
 
@@ -9,11 +10,13 @@ const Cart = ({carts,setCarts}) => {
 
     const handlePayment = ()=>{
         setCarts([])
+        toast.success("Payment Successfull")
     };
 
     const handleDelet = (item) =>{
         const filterArray = carts.filter(c =>c.id !== item.id)
         setCarts(filterArray)
+        toast.error("Items Remove")
     }
 
     return (
@@ -24,8 +27,8 @@ const Cart = ({carts,setCarts}) => {
                     {
                         carts.length === 0 ? 
                         <div className='bg-white rounded-lg p-10 text-center space-y-5'>
-                            <img className='m-auto w-[10%]  ' src={empty} alt="" />
-                            <p className='text-4xl mt-5 font-semibold' >Your Cart Is Currently Empty</p>
+                            <img className='m-auto w-[100px]  ' src={empty} alt="" />
+                            <p className='text-4xl mt-5' >Your Cart Is Currently Empty</p>
                         </div>
                         
                         :
