@@ -20,7 +20,8 @@ function App() {
   const [activeTab,setActiveTab] = useState("model")
 
   const [carts,setCarts]=useState([])
-  console.log(carts)
+
+  
   
 
   return (
@@ -38,7 +39,7 @@ function App() {
       {/* TabButton  */}
 
       { activeTab === "model" &&  <Models modelsPromise={modelsPromise} carts={carts} setCarts={setCarts}  ></Models>}
-      { activeTab === "Cart" &&  <Cart carts={carts} ></Cart>}
+      { activeTab === "Cart" &&  <Cart carts={carts} setCarts={setCarts} ></Cart>}
       
       <Users></Users>
       {/* Simple, Transparent Pricing */}
