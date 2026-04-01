@@ -1,3 +1,4 @@
+# Project Name : Digi-Tools-React
 # Description
 
 Digi Tools Platform is a digital tools buying website where users can explore different products and add them to a cart. It provides a smooth and interactive user experience with dynamic cart updates, product toggling, and notification alerts.
