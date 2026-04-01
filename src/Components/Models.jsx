@@ -1,7 +1,7 @@
 import {use} from "react";
 import ModelsCard from "./ModelsCard";
 
-const Models = ({modelsPromise}) => {
+const Models = ({modelsPromise,carts,setCarts}) => {
 
     const models = use(modelsPromise)
     return (
@@ -17,7 +17,7 @@ const Models = ({modelsPromise}) => {
                     {
                         models.map(model =>( 
                             
-                       <ModelsCard model={model}></ModelsCard>     
+                       <ModelsCard key={model.id} model={model} carts={carts} setCarts={setCarts} ></ModelsCard>     
 
                       ))}
                 </div>

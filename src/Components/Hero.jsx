@@ -8,12 +8,12 @@ const Hero = () => {
             <div className='flex w-[1400px] justify-between items-center m-auto py-[100px] '> 
                 <div className='space-y-8 p-10'>
                     {/* Badge  */}
-                    <div class="flex items-center gap-3 bg-purple-200/40 px-4 py-2 justify-center rounded-full w-[75%]">
-                        <span class="relative flex h-4 w-4">
-                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-500 opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-4 w-4 bg-purple-600"></span>
+                    <div className="flex items-center gap-3 bg-purple-200/40 px-4 py-2 justify-center rounded-full w-[75%]">
+                        <span className="relative flex h-4 w-4">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-500 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-4 w-4 bg-purple-600"></span>
                         </span>
-                        <h4 class="text-xl font-medium text-purple-600">
+                        <h4 className="text-xl font-medium text-purple-600">
                             New: AI-Powered Tools Available
                         </h4>
                     </div>
